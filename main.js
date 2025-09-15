@@ -45,8 +45,10 @@ function renderTask(task) {
 
   // Complete handler
   completeBtn.addEventListener("click", () => {
-    task.completed = true;
-    span.classList.add("completed-task");
+    // task.completed = true;
+    span.classList.toggle("completed-task");
+    task.completed = span.classList.contains("completed-task");
+    completeBtn.innerText = task.completed ? "Undo": "Complete";
     saveTasks();
   });
 
