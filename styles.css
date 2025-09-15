@@ -1,0 +1,39 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  margin: 4px 0;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.completed-task {
+    text-decoration-line: line-through;
+}
+
+.delete-btn {
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.complete-task {
+  background: #8fb77c;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.complete-task:hover {
+  background: #2e7d32;
+}
+
+.delete-btn:hover {
+  background: #cc0000;
+}
