@@ -37,3 +37,8 @@ li {
 .delete-btn:hover {
   background: #cc0000;
 }
+
+.filter-btn.active {
+  background: #333;
+  color: #fff;
+}
